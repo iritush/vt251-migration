@@ -1,0 +1,7 @@
+member table title export:
+pk_id	rcp_legacy_member_id	member_name	first_name	last_name	rcp_secondary_member	suffix	level	member_status	rcp_street_line_1	rcp_city	rcp_state	rcp_zipcode	rcp_phone_number	email	rcp_secondary_email	last_update_dt	paid_thru	rcp_join_date
+
+member with user title exoort:
+rcp_251_legacy_user_id	251_user_pw	251_user_name	pk_id	rcp_legacy_member_id	member_name	first_name	last_name	rcp_secondary_member	suffix	level	member_status	rcp_street_line_1	rcp_city	rcp_state	rcp_zipcode	rcp_phone_number	email	rcp_secondary_email	last_update_dt	paid_thru	rcp_join_date
+
+wp user delete $(wp user list --role=subscriber --field=ID)
